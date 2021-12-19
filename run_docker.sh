@@ -4,9 +4,12 @@
 
 # Step 1:
 # Build image and add a descriptive tag
+docker build -t sherifhmdy/bostonapp:latest .
 
 # Step 2: 
 # List docker images
+docker image ls
 
 # Step 3: 
 # Run flask app
+docker run -p5000:5000 sherifhmdy/bostonapp:latest
