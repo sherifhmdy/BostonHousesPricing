@@ -1,14 +1,17 @@
 # BOSTON PRICING APPLICATION 
 
-#CircleCI status
+## CircleCI status
+
 [![CircleCI](https://circleci.com/gh/sherifhmdy/BostonHousesPricing/tree/master.svg?style=svg)](https://circleci.com/gh/sherifhmdy/BostonHousesPricing/tree/master)
 
 
-#Summary
+## Summary
+
     this application is using a pre-trained model to predict houses pricing in Boston
     and project contains scripts and files to lint/containerize/upload application on dockerhub.io
 
-#Instructions
+## Instructions
+
     - first of all run make setup to create python environment .devops
     - activate the created env using source .devops/bin/activate command
     - run make install command to install dependencies
@@ -22,7 +25,8 @@
     - after creating your kubernetes cluster locally using minikube or on cloud using services like EKS follow the below
     - run script ./run_kubernetes.sh to create a pod for the application and expose the pod to be called normally
     
-#Files Description
+## Files Description
+
     - output_txt_files contains required output files and I've added another file kubernetes_LOGS which
     is simply taken from pod's logs
     - Dockerfile is file has the application's docker image data and configurations
