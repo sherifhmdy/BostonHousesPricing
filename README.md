@@ -29,7 +29,7 @@
 ## Files Description
 
     - output_txt_files contains required output files and I've added another file kubernetes_LOGS which
-    is simply taken from pod's logs
+        is simply taken from pod's logs
     - Dockerfile is file has the application's docker image data and configurations
     - app.py is the main application file
     - Makefile is a make file for automating environment setup, dependencies installatin, and code linting & testing
