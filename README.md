@@ -19,8 +19,13 @@ trained sklearn model.
 ## Usage
 
 BostongPricing needs a pre-installed kubernetes cluter like minikube or kubernetes within docker desktop.
-you can download docker desktop from the below URL
-    `https://www.docker.com/products/docker-desktop`
+You can download docker desktop from the below URL `https://www.docker.com/products/docker-desktop`.
+Makefile and bash scripts have been created to facilitate the setup environment, dependencies installation, 
+and hosting the image on kubernetes using the below comamnds and scripts.
+    $ make setup; source .devops/bin/activate
+    $ make install
+    $ make lint
+    $ ./run_kubernetes.sh
     
 ## Files Description
 
