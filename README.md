@@ -14,9 +14,13 @@ trained sklearn model.
 
     $ git clone https://github.com/sherifhmdy/BostonHousesPricing.git
     $ cd BostonHousesPricing
-    $ install minikube or docker desktop with kubernetes, also install kubectl
     $ ./run_kubernetes.sh
 
+## Usage
+
+BostongPricing needs a pre-installed kubernetes cluter like minikube or kubernetes within docker desktop.
+you can download docker desktop from the below URL
+    `https://www.docker.com/products/docker-desktop`
     
 ## Files Description
 
