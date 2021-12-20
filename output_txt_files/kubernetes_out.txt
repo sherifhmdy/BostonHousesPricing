@@ -8,3 +8,12 @@ Handling connection for 5000
 Handling connection for 5000
 Handling connection for 5000
 
+---------------------------------------------
+------------ Make Prediction output ---------
+
+Port: 5000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}

@@ -5,26 +5,15 @@
 [![CircleCI](https://circleci.com/gh/sherifhmdy/BostonHousesPricing/tree/master.svg?style=svg)](https://circleci.com/gh/sherifhmdy/BostonHousesPricing/tree/master)
 
 
-## Summary
+## BostonHousePricing
 
-    this application is using a pre-trained model to predict houses pricing in Boston
-    and project contains scripts and files to lint/containerize/upload application on dockerhub.io
+    BostonPricing is a python application helps you predict houses pricing in boston based on data science trained sklearn model.
 
-## Instructions
+## Installation
 
-    - first of all run make setup to create python environment .devops
-    - activate the created env using source .devops/bin/activate command
-    - run make install command to install dependencies
-    - run make lint command to make sure Dockerfile and app.py are valid
-    - linting step has been automated using cirecleci CI pipeline
-    - now you can test the application locally using python3 app.py command
-    - while testing the application you can call script ./make_prediction.sh to test the application and check if
-        it's running smoothly or not
-    - if all prev. steps passed successfully then you need to containerize and upload docker file on hub
-        - run script ./run_docker.sh to build docker image and create a container from the created image
-        - run script ./upload_docker.sh to upload the created image to the hub so you can re-use it anywhere
-    - after creating your kubernetes cluster locally using minikube or on cloud using services like EKS follow the below
-    - run script ./run_kubernetes.sh to create a pod for the application and expose the pod to be called normally
+    `$ git clone https://github.com/sherifhmdy/BostonHousesPricing.git`
+    `$ cd BostonHousesPricing`
+    
     
 ## Files Description
 
