@@ -22,6 +22,7 @@ BostongPricing needs a pre-installed kubernetes cluter like minikube or kubernet
 You can download docker desktop from the below URL `https://www.docker.com/products/docker-desktop`.
 Makefile and bash scripts have been created to facilitate the setup environment, dependencies installation, 
 and hosting the image on kubernetes using the below comamnds and scripts.
+
     $ make setup; source .devops/bin/activate
     $ make install
     $ make lint
